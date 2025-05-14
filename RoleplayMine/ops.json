@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "8c33ffce-a1ad-32dc-bb11-6e85a3a7f9d6",
+    "name": "Mafhal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "67a08d8a-aefa-396d-b938-510c2c60f274",
+    "name": "MaFhal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

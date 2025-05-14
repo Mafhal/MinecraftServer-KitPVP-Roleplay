@@ -1,0 +1,1 @@
+java -Xms540M -Xmx540M -jar spigot.jar
