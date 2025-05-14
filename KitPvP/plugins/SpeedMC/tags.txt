@@ -1,0 +1,8 @@
+Mafhal_teste prefix = "§7§lMEMBRO §7"
+Mafhal_teste suffix = " §7(§f-§7)"
+Mafhal prefix = "§4§lDONO §4"
+Mafhal suffix = " §7(§a=§7)"
+Zezinho prefix = "§7§lMEMBRO §7"
+Zezinho suffix = " §7(§f-§7)"
+MaFhal prefix = "§7§lMEMBRO §7"
+MaFhal suffix = " §7(§f-§7)"

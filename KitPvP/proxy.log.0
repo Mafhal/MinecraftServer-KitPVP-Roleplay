@@ -1,0 +1,168 @@
+12:27:53 [INFORMAÇÕES] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+12:27:53 [INFORMAÇÕES] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+12:27:53 [INFORMAÇÕES] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:7d2c2ab:1119
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:27:54 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:54 [INFORMAÇÕES] Attempting to Jenkins download module cmd_alert v1119
+12:27:55 [INFORMAÇÕES] Download complete
+12:27:55 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:55 [INFORMAÇÕES] Attempting to Jenkins download module cmd_find v1119
+12:27:55 [INFORMAÇÕES] Download complete
+12:27:55 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:55 [INFORMAÇÕES] Attempting to Jenkins download module cmd_list v1119
+12:27:55 [INFORMAÇÕES] Download complete
+12:27:55 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:55 [INFORMAÇÕES] Attempting to Jenkins download module cmd_send v1119
+12:27:56 [INFORMAÇÕES] Download complete
+12:27:56 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:56 [INFORMAÇÕES] Attempting to Jenkins download module cmd_server v1119
+12:27:56 [INFORMAÇÕES] Download complete
+12:27:56 [INFORMAÇÕES] Attempting to update plugin from null to ModuleVersion(build=1119, git=7d2c2ab)
+12:27:56 [INFORMAÇÕES] Attempting to Jenkins download module reconnect_yaml v1119
+12:27:56 [INFORMAÇÕES] Download complete
+12:27:56 [ADVERTÊNCIA] Could not load plugin from file plugins\PermissionsEx.jar
+Cannot create property=author for JavaBean=PluginDescription(name=PermissionsEx, main=ru.tehkode.permissions.bukkit.PermissionsEx, version=1.21, author=null, depends=[], softDepends=[], file=null, description=null)
+ in 'reader', line 1, column 1:
+    name: PermissionsEx
+    ^
+No suitable constructor with 2 arguments found for class java.lang.String
+ in 'reader', line 5, column 9:
+    author: [t3hk0d3, zml]
+            ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:307)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:189)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:340)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:127)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:481)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:475)
+	at net.md_5.bungee.api.plugin.PluginManager.detectPlugins(PluginManager.java:349)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:245)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: org.yaml.snakeyaml.error.YAMLException: No suitable constructor with 2 arguments found for class java.lang.String
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructSequence.construct(Constructor.java:587)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:297)
+	... 11 more
+12:27:56 [INFORMAÇÕES] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:56 [INFORMAÇÕES] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:56 [INFORMAÇÕES] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:56 [INFORMAÇÕES] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:56 [ADVERTÊNCIA] Error enabling plugin BattleBits
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:247)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 18 more
+12:27:56 [INFORMAÇÕES] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:56 [INFORMAÇÕES] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [ADVERTÊNCIA] Forced host server pvp is not defined
+12:27:57 [INFORMAÇÕES] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:27:57 [INFORMAÇÕES] Listening on /0.0.0.0:25577
+12:29:20 [INFORMAÇÕES] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+12:29:20 [INFORMAÇÕES] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+12:29:20 [INFORMAÇÕES] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:7d2c2ab:1119
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+12:29:20 [INFORMAÇÕES] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+12:29:20 [ADVERTÊNCIA] Could not load plugin from file plugins\PermissionsEx.jar
+Cannot create property=author for JavaBean=PluginDescription(name=PermissionsEx, main=ru.tehkode.permissions.bukkit.PermissionsEx, version=1.21, author=null, depends=[], softDepends=[], file=null, description=null)
+ in 'reader', line 1, column 1:
+    name: PermissionsEx
+    ^
+No suitable constructor with 2 arguments found for class java.lang.String
+ in 'reader', line 5, column 9:
+    author: [t3hk0d3, zml]
+            ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:307)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:189)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:340)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:127)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:481)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:475)
+	at net.md_5.bungee.api.plugin.PluginManager.detectPlugins(PluginManager.java:349)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:245)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: org.yaml.snakeyaml.error.YAMLException: No suitable constructor with 2 arguments found for class java.lang.String
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructSequence.construct(Constructor.java:587)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:297)
+	... 11 more
+12:29:20 [INFORMAÇÕES] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [ADVERTÊNCIA] Error enabling plugin BattleBits
+java.lang.NoClassDefFoundError: org/bukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:34)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:304)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:212)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:247)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.event.Listener
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:53)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:27)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 18 more
+12:29:20 [INFORMAÇÕES] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [ADVERTÊNCIA] Forced host server pvp is not defined
+12:29:20 [INFORMAÇÕES] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:7d2c2ab:1119 by SpigotMC
+12:29:20 [INFORMAÇÕES] Listening on /0.0.0.0:25577
